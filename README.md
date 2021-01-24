@@ -2,7 +2,7 @@
 勉強時間を可視化するPythonスクリプトです。
 下記のようなグラフを画像として出力することができます。
 
-![](sample.png)
+![](./sample/sample.png)
 
 ## 各グラフ説明
 グラフは下記の3つ出力されます。
@@ -32,7 +32,7 @@ poetry install
 3. mainスクリプトを実行する。  
     実行コマンドは以下のとおりです。
     ```
-    poetry run python main.py --config_path path/to/config.yml
+    poetry run python src/main.py --config_path path/to/config.yml
     ```
 
 
