@@ -64,7 +64,6 @@ class analyze_activitiy:
         - 各タスク番号の合計時間
         - 各日の勉強時間の時系列変化
         - 各日のタスクごとの勉強時間の時系列変化
-        - 時間帯ごとの勉強時間
         """
         fig,axes=plt.subplots(self.graph_num,figsize=(10,5*self.graph_num))
         min_date=self.df["date"].min()
