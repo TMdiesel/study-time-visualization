@@ -1,0 +1,8 @@
+filepath: sample.csv
+savepath: sample.png
+task_dict: 
+  1: English
+  2: Coding
+  3: Math
+  4: Physics
+  5: Book
