@@ -18,6 +18,7 @@
 ```
 poetry install
 ```
+スマホから実行したい、環境構築をしたくないという方向けにはGoogle Colaboratoryを使用して実行する方法を用意しています。詳細は[Colab_Notebooks](./Colab_Notebooks)をご参照ください。
 
 ## 使い方
 使い方は以下の通りです。
