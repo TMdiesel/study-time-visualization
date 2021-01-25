@@ -124,6 +124,7 @@ class analyze_activitiy:
         ComplementDate(date_gdf).plot(marker='o',ax=axes[1],
                                 markevery=holiday_index,linestyle="None",color="red",legend=None)
         axes[1].set_ylim([0,date_gdf["hour"].max()+1])
+        axes[1].set_xlim(min_date-timedelta(days=1),max_date+timedelta(days=1))
 
         # graph 2
         axes[2].set_title(f"Time variation of study time for each task ")
@@ -135,6 +136,7 @@ class analyze_activitiy:
             except:
                 pass
         axes[2].legend(legend_list,bbox_to_anchor=(0, -0.15),loc='upper left')
+        axes[2].set_xlim(min_date-timedelta(days=1),max_date+timedelta(days=1))
 
         plt.subplots_adjust(wspace=0.4, hspace=0.6)
         plt.savefig(self.savepath)
