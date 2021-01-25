@@ -1,5 +1,5 @@
 filepath: ./sample/sample.csv
-savepath: ./sample/sample.png
+savepath: ./sample/sample.jpg
 task_dict: 
   1: English
   2: Coding

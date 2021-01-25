@@ -2,9 +2,9 @@
 勉強時間を可視化するPythonスクリプトです。
 下記のようなグラフを画像として出力することができます。
 
-|sample.png|
+|sample.jpg|
 | :--- |
-|![](./sample/sample.png)|
+|![](./sample/sample.jpg)|
 
 ## 各グラフ説明
 グラフは下記の3つ出力されます。
